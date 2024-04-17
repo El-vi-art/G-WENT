@@ -8,6 +8,7 @@ public class InitialMenu : MonoBehaviour
     // Start is called before the first frame update
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    	Debug.Log("Botón clickeado");
+        SceneManager.LoadScene(1);
     }
 }
