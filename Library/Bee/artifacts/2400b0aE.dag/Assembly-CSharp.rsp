@@ -349,8 +349,10 @@
 -analyzer:"/media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/InitialMenu.cs"
-"Assets/Scripts/CardModel.cs"
 "Assets/Scripts/Deck.cs"
+"Assets/Scripts/Fields.cs"
+"Assets/Scripts/Hands.cs"
+"Assets/Scripts/Players.cs"
 -langversion:9.0
 
 /deterministic

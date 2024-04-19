@@ -59,14 +59,16 @@
     <UnityVersion>2022.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/home/victor/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.0/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/home/victor/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.1/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/InitialMenu.cs" />
-    <Compile Include="Assets/Scripts/CardModel.cs" />
+    <Compile Include="Assets/Scripts/Hands.cs" />
+    <Compile Include="Assets/Scripts/Fields.cs" />
     <Compile Include="Assets/Scripts/Deck.cs" />
+    <Compile Include="Assets/Scripts/Players.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
