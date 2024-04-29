@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d841110d5806243b3ee0f60516555c, type: 3}
+  m_Name: Velita
+  m_EditorClassIdentifier: 
+  CardName: Velita
+  Attack: 0
+  CardFaction: 1
+  Cardtipe: 2
+  Position1: 0
+  Position2: 1
+  Position3: 2
+  CardRank: 0
+  ID: 5
+  Description: Engano para el enemigo
+  Positions: M R S
+  CardFront: {fileID: 21300000, guid: d3fd9225ea608a9e0887f917a89c634e, type: 3}

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main/Assembly-CSharp.csproj",
+      "projectUniqueName": "/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main/Assembly-CSharp.csproj",
+      "projectPath": "/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assembly-CSharp.csproj",
       "packagesPath": "/home/victor/.nuget/packages/",
-      "outputPath": "/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main/Temp/obj/Debug/Assembly-CSharp/",
+      "outputPath": "/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main copia (copia)/Temp/obj/Debug/Assembly-CSharp/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/victor/.nuget/NuGet/NuGet.Config"

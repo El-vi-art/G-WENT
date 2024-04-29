@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d841110d5806243b3ee0f60516555c, type: 3}
+  m_Name: Maria Silvia
+  m_EditorClassIdentifier: 
+  CardName: Maria Silvia
+  Attack: 6
+  CardFaction: 1
+  Cardtipe: 4
+  Position1: 1
+  Position2: 1
+  Position3: 1
+  CardRank: 2
+  ID: 8
+  Description: Jeva de Elpidio
+  Positions: R
+  CardFront: {fileID: 21300000, guid: 6d59edb396ca73a929ff1eec69d15953, type: 3}

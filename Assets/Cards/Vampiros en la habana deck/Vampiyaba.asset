@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1d841110d5806243b3ee0f60516555c, type: 3}
+  m_Name: Vampiyaba
+  m_EditorClassIdentifier: 
+  CardName: Vampiyaba
+  Attack: 7
+  CardFaction: 0
+  Cardtipe: 4
+  Position1: 1
+  Position2: 2
+  Position3: 2
+  CardRank: 2
+  ID: 7
+  Description: Sustancia dulce y cremosa que transforma en vampiro
+  Positions: R S
+  CardFront: {fileID: 21300000, guid: d516a0665273965b0bb8ed2451d673b2, type: 3}

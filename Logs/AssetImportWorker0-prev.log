@@ -1,0 +1,1057 @@
+Unity Editor version:    2022.3.18f1 (d29bea25151d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #28~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 15 10:51:06 UTC 2
+Kernel version:          6.5.0-27-generic
+Architecture:            x86_64
+Available memory:        3309 MB
+Using pre-set license
+Pro License: YES
+Desktop is 1366 x 768 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main copia (copia)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+45231
+Successfully changed project path to: /media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main copia (copia)
+/media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main copia (copia)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+GetLocalIP: Error during connect: La red es inaccesible
+Player connection [132394382013376] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 1808227556 [EditorId] 1808227556 [Version] 1048832 [Id] LinuxEditor(16,0.0.0.0) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [132394382013376] Host "[IP] 0.0.0.0 [Port] 0 [Flags] 2 [Guid] 1808227556 [EditorId] 1808227556 [Version] 1048832 [Id] LinuxEditor(16,0.0.0.0) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 405.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /media/victor/2492907A92905262/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: KABINI (, LLVM 15.0.7, DRM 2.50, 6.5.0-27-generic)
+Vendor:   AMD
+Version:  4.5 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_bu
+ffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_A
+RB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_te
+xture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_onc
+e GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzl
+e GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1172173360
+Initialize mono
+Mono path[0] = '/media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = '/media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56867
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /media/victor/2492907A92905262/Unity/Ubuntu Unity/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.923418 seconds.
+- Loaded All Assemblies, in  5.468 seconds
+Native extension for LinuxStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.258 seconds
+Domain Reload Profiling: 7411ms
+	BeginReloadAssembly (966ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (397ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (2740ms)
+	LoadAllAssembliesAndSetupDomain (1004ms)
+		LoadAssemblies (897ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (987ms)
+			TypeCache.Refresh (983ms)
+				TypeCache.ScanAssembly (805ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2260ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1681ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (492ms)
+			SetLoadedEditorAssemblies (53ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (725ms)
+			ProcessInitializeOnLoadMethodAttributes (394ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.401 seconds
+Refreshing native plugins compatible for Editor in 89.21 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.705 seconds
+Domain Reload Profiling: 14008ms
+	BeginReloadAssembly (1142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (271ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (1291ms)
+	LoadAllAssembliesAndSetupDomain (6554ms)
+		LoadAssemblies (6015ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1254ms)
+			TypeCache.Refresh (1179ms)
+				TypeCache.ScanAssembly (898ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (4708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4091ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (508ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1119ms)
+			ProcessInitializeOnLoadAttributes (1491ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (863ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 81.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (29.7 KB). Loaded Objects now: 3628.
+Memory consumption went from 137.6 MB to 137.6 MB.
+Total: 15.914662 ms (FindLiveObjects: 1.127588 ms CreateObjectMapping: 0.539803 ms MarkObjects: 13.583291 ms  DeleteObjects: 0.652178 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: efbeaf2078ee4010e9a0b7bd6667f9dd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 56515d3f7c7fbc9fbc4f1e6d4c313860 -> 5f290b40d7bf9f0cd5e694b6cfed90bc
+  custom:scripting/monoscript/fileName/BackButton.cs: 92b20ae206aa1198ae3c7439829a2a3b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.354 seconds
+Refreshing native plugins compatible for Editor in 81.17 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 26.741 seconds
+Domain Reload Profiling: 34967ms
+	BeginReloadAssembly (1631ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (116ms)
+	RebuildCommonClasses (256ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (962ms)
+	LoadAllAssembliesAndSetupDomain (5333ms)
+		LoadAssemblies (6536ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (26743ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (280ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1042ms)
+			ProcessInitializeOnLoadAttributes (1379ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (730ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 82.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3631.
+Memory consumption went from 135.5 MB to 135.4 MB.
+Total: 13.679323 ms (FindLiveObjects: 1.132127 ms CreateObjectMapping: 0.559429 ms MarkObjects: 11.813303 ms  DeleteObjects: 0.159727 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: efbeaf2078ee4010e9a0b7bd6667f9dd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BackButton.cs: 92b20ae206aa1198ae3c7439829a2a3b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3418.425064 seconds.
+  path: Assets/Scripts/ChangeButtonTrasparency.cs
+  artifactKey: Guid(cb214909ca5233b49a6afbeec1dcc6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ChangeButtonTrasparency.cs using Guid(cb214909ca5233b49a6afbeec1dcc6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beb0f4c03ae007c06ef217fe4982d22') in 0.006051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.581 seconds
+Refreshing native plugins compatible for Editor in 107.49 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.502 seconds
+Domain Reload Profiling: 16942ms
+	BeginReloadAssembly (1934ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (433ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (882ms)
+	LoadAllAssembliesAndSetupDomain (3147ms)
+		LoadAssemblies (4537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (10504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3459ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (368ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1158ms)
+			ProcessInitializeOnLoadAttributes (1084ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (752ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 107.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3633.
+Memory consumption went from 137.1 MB to 137.1 MB.
+Total: 15.883373 ms (FindLiveObjects: 1.147911 ms CreateObjectMapping: 0.622006 ms MarkObjects: 13.923557 ms  DeleteObjects: 0.176000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: efbeaf2078ee4010e9a0b7bd6667f9dd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BackButton.cs: 92b20ae206aa1198ae3c7439829a2a3b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.900385 seconds.
+  path: Assets/Scripts/PlayButton.cs
+  artifactKey: Guid(4f141eaabe37309469ced553d195f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayButton.cs using Guid(4f141eaabe37309469ced553d195f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f94d470e8d4934b0da70d96499f1ecf') in 0.007582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.614 seconds
+Refreshing native plugins compatible for Editor in 73.44 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.298 seconds
+Domain Reload Profiling: 13781ms
+	BeginReloadAssembly (1055ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (278ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (916ms)
+	LoadAllAssembliesAndSetupDomain (3174ms)
+		LoadAssemblies (3775ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (8300ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (274ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1027ms)
+			ProcessInitializeOnLoadAttributes (1071ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (730ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 76.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.5 KB). Loaded Objects now: 3635.
+Memory consumption went from 139.0 MB to 139.0 MB.
+Total: 11.855278 ms (FindLiveObjects: 1.002292 ms CreateObjectMapping: 0.365340 ms MarkObjects: 10.333855 ms  DeleteObjects: 0.140940 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: efbeaf2078ee4010e9a0b7bd6667f9dd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BackButton.cs: 92b20ae206aa1198ae3c7439829a2a3b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.826418 seconds.
+  path: Assets/Scripts/server-20240425-154526.log
+  artifactKey: Guid(ff5062dee1ef8ebe38eaa6c01c2b1bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/server-20240425-154526.log using Guid(ff5062dee1ef8ebe38eaa6c01c2b1bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69a70c5f29ce3432a716746884fb7e5') in 0.039184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1369.533522 seconds.
+  path: Assets/Sprites/Empadronado.jpg
+  artifactKey: Guid(29d8e6598b79834898aa8ad0bac76c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Empadronado.jpg using Guid(29d8e6598b79834898aa8ad0bac76c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2193db6a000646cc9c14591f9b79e11') in 1.947458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.393316 seconds.
+  path: Assets/Sprites/Empadronado.jpg
+  artifactKey: Guid(29d8e6598b79834898aa8ad0bac76c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Empadronado.jpg using Guid(29d8e6598b79834898aa8ad0bac76c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25597420b25a31a041b55998ddb1026') in 1.785544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.916678 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Artilleria espanola.jpeg
+  artifactKey: Guid(1e90edb85733ac880833023a50ed6a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Artilleria espanola.jpeg using Guid(1e90edb85733ac880833023a50ed6a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6eeb66cf84d38bef52a6d8ac605a7f') in 2.980148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Carga al machete.jpg
+  artifactKey: Guid(13c5c4de67b84c43d940cd695b6ba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Carga al machete.jpg using Guid(13c5c4de67b84c43d940cd695b6ba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab93d16adadd467815825fff0fdfeff') in 1.043940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Muchacho!.jpg
+  artifactKey: Guid(893de434ab93c81d88c4cc542bfc5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Muchacho!.jpg using Guid(893de434ab93c81d88c4cc542bfc5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91be2a2d7a768fd70188ed902ca7de79') in 1.420380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/telegrafo.jpg
+  artifactKey: Guid(df402c366d0a333d4be1cb4fe470c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/telegrafo.jpg using Guid(df402c366d0a333d4be1cb4fe470c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7667539ede09ebc904e30c3e77bbe1cb') in 1.051050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Gordo.jpg
+  artifactKey: Guid(599c809b9fa7789a8bb790fd2f1e5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Gordo.jpg using Guid(599c809b9fa7789a8bb790fd2f1e5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4109b3c4f478ba3e7aba388fcb221e') in 1.034903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 41.313730 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Artilleria espanola.jpeg
+  artifactKey: Guid(1e90edb85733ac880833023a50ed6a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Artilleria espanola.jpeg using Guid(1e90edb85733ac880833023a50ed6a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d788c5204eafdde77ffe8e69c4b71f') in 0.778850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.534163 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Carga al machete.jpg
+  artifactKey: Guid(13c5c4de67b84c43d940cd695b6ba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Carga al machete.jpg using Guid(13c5c4de67b84c43d940cd695b6ba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a01f34a73d1a8c74dd4e2caef96d90') in 0.821449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.887017 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Gordo.jpg
+  artifactKey: Guid(599c809b9fa7789a8bb790fd2f1e5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Gordo.jpg using Guid(599c809b9fa7789a8bb790fd2f1e5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fce024c7d7636e44929ff9f5b725c9') in 0.763008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.156853 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/Muchacho!.jpg
+  artifactKey: Guid(893de434ab93c81d88c4cc542bfc5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/Muchacho!.jpg using Guid(893de434ab93c81d88c4cc542bfc5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32a072c5e2ea37d1675acf6aa017093') in 0.784253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.453124 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Conde Vladislao.jpg
+  artifactKey: Guid(ccf1a0ffbe52171bf80c825a3d502e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Conde Vladislao.jpg using Guid(ccf1a0ffbe52171bf80c825a3d502e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8678ad1653863e7948ec854a1ebb38') in 2.133916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Jefe.jpg
+  artifactKey: Guid(7b1b8808171ce0f569b03d116f755d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Jefe.jpg using Guid(7b1b8808171ce0f569b03d116f755d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3e8f7b3553caf77a0ae410851467cf') in 0.866927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/IMG_20240428_211642.jpg
+  artifactKey: Guid(67f1aaecee9461d6492f50166ac474e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/IMG_20240428_211642.jpg using Guid(67f1aaecee9461d6492f50166ac474e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b7af06dc5d3dca76f4d20ca8246e8a') in 0.745206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Laboratorio.jpg
+  artifactKey: Guid(2fd5510f8cf0939d2842b305453aecfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Laboratorio.jpg using Guid(2fd5510f8cf0939d2842b305453aecfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849a9a42ead58b9bd17f7f0a1c730d82') in 0.756924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Enfermera!.jpg
+  artifactKey: Guid(c5799b66d18bfde51b1261dbdd763046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Enfermera!.jpg using Guid(c5799b66d18bfde51b1261dbdd763046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6192ad59d9fe5162dd02abb8cae259e') in 0.755366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.160177 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Conde Vladislao.jpg
+  artifactKey: Guid(ccf1a0ffbe52171bf80c825a3d502e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Conde Vladislao.jpg using Guid(ccf1a0ffbe52171bf80c825a3d502e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310ec36aa378920c28da075a9a64b6d7') in 0.751728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.372389 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Enfermera!.jpg
+  artifactKey: Guid(c5799b66d18bfde51b1261dbdd763046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Enfermera!.jpg using Guid(c5799b66d18bfde51b1261dbdd763046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452ca5b5bb2060cbe0823bce61031e4b') in 0.779244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 41.357359 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Capone.jpg
+  artifactKey: Guid(67f1aaecee9461d6492f50166ac474e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Capone.jpg using Guid(67f1aaecee9461d6492f50166ac474e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccfe203c5ff8df24ce71cc2fcfde92d') in 0.742446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.198707 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Negro.jpg
+  artifactKey: Guid(0f194a9f5091605a188d3ae9208fbb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Negro.jpg using Guid(0f194a9f5091605a188d3ae9208fbb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432306b75f8a730c3653024807758d7a') in 0.764624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 78.680564 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Laboratorio.jpg
+  artifactKey: Guid(2fd5510f8cf0939d2842b305453aecfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Laboratorio.jpg using Guid(2fd5510f8cf0939d2842b305453aecfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba83a225ada38816748fc4842b487fe5') in 0.758889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.248192 seconds.
+  path: Assets/Sprites/card images/El Pidio Valdez/telegrafo.jpg
+  artifactKey: Guid(df402c366d0a333d4be1cb4fe470c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/El Pidio Valdez/telegrafo.jpg using Guid(df402c366d0a333d4be1cb4fe470c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea02dc3b33f9f53471a256bb3a136eb') in 1.053872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.908 seconds
+Refreshing native plugins compatible for Editor in 95.98 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.757 seconds
+Domain Reload Profiling: 21485ms
+	BeginReloadAssembly (1351ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (279ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (1126ms)
+	LoadAllAssembliesAndSetupDomain (3926ms)
+		LoadAssemblies (4792ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (14759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4043ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (319ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1197ms)
+			ProcessInitializeOnLoadAttributes (1364ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (1051ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 93.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3665.
+Memory consumption went from 143.1 MB to 143.0 MB.
+Total: 12.741004 ms (FindLiveObjects: 1.061099 ms CreateObjectMapping: 0.558032 ms MarkObjects: 10.958307 ms  DeleteObjects: 0.150788 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: efbeaf2078ee4010e9a0b7bd6667f9dd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BackButton.cs: 92b20ae206aa1198ae3c7439829a2a3b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 506.495572 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Baby.asset
+  artifactKey: Guid(a30f4874539c967429008ca8bce99a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Baby.asset using Guid(a30f4874539c967429008ca8bce99a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79875102764704d17e303b73691e11d2') in 0.278393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Vampisol.asset
+  artifactKey: Guid(3e3ab55be7e2ec444a82b1a923c29090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Vampisol.asset using Guid(3e3ab55be7e2ec444a82b1a923c29090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dff35e8390eb95224b71a7f8ca54da') in 0.127312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Vampiyaba.asset
+  artifactKey: Guid(129a965f0a6b86140820dd5f6e542704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Vampiyaba.asset using Guid(129a965f0a6b86140820dd5f6e542704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a000faba6b3f7b7d9ae6ae715cac4e') in 0.052425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/O+.asset
+  artifactKey: Guid(77cd2b4d1d64bdb46914cb3b000687c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/O+.asset using Guid(77cd2b4d1d64bdb46914cb3b000687c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d0f8f486fdfcc6fb8e4a1c774eaf35') in 0.133031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Vampiro francotirador.asset
+  artifactKey: Guid(10b02e3fc38363a4fa1538cab494683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Vampiro francotirador.asset using Guid(10b02e3fc38363a4fa1538cab494683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8478b5185d50a00f66af7db6374bdb8') in 0.018017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 104.007792 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Conde Vladislao.asset
+  artifactKey: Guid(53569083c0cd7814a9a5575488a3cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Conde Vladislao.asset using Guid(53569083c0cd7814a9a5575488a3cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d43ec4a31f062c20e23d700fecb5f0') in 0.027580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.001007 seconds.
+  path: Assets/Sprites/card images/Vampiros en la Habana/Jefe.jpg
+  artifactKey: Guid(7b1b8808171ce0f569b03d116f755d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/card images/Vampiros en la Habana/Jefe.jpg using Guid(7b1b8808171ce0f569b03d116f755d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980e53686cb4c57770ed5f88ca991261') in 1.362315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 46.349096 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Jefe.asset
+  artifactKey: Guid(a7d3a5988c3907cf79a20a775680c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Jefe.asset using Guid(a7d3a5988c3907cf79a20a775680c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115869dbb47f9ccd2ff0e484c8776218') in 0.005684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 129.754166 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Capone.asset
+  artifactKey: Guid(9e1fd48715b42d62aab496eb9905bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Capone.asset using Guid(9e1fd48715b42d62aab496eb9905bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092acbff138ffb305d1b0a3479a9323c') in 0.035400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 166.598639 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Laboratorio.asset
+  artifactKey: Guid(cb7751bf8a44f33fbbb98f09f223e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Laboratorio.asset using Guid(cb7751bf8a44f33fbbb98f09f223e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d1e4cb37f8911c3f2fc7170794bdbd') in 0.025653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 115.242715 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Baby.asset
+  artifactKey: Guid(a30f4874539c967429008ca8bce99a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Baby.asset using Guid(a30f4874539c967429008ca8bce99a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e360574b6e6ac7225dba33c7840c949c') in 0.009254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Capone.asset
+  artifactKey: Guid(9e1fd48715b42d62aab496eb9905bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Capone.asset using Guid(9e1fd48715b42d62aab496eb9905bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4766c1db3bbb870192d99ab8728a80e3') in 0.008812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Conde Vladislao.asset
+  artifactKey: Guid(53569083c0cd7814a9a5575488a3cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Conde Vladislao.asset using Guid(53569083c0cd7814a9a5575488a3cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64ce53ffd346be85a1bb69374223cf8') in 0.009524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Jefe.asset
+  artifactKey: Guid(a7d3a5988c3907cf79a20a775680c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Jefe.asset using Guid(a7d3a5988c3907cf79a20a775680c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0dec2395cd06dfcd5013d742049a74') in 0.009526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Laboratorio.asset
+  artifactKey: Guid(cb7751bf8a44f33fbbb98f09f223e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Laboratorio.asset using Guid(cb7751bf8a44f33fbbb98f09f223e982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19f8c84236a765cc65adbfa72c3cd62') in 0.007110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.212020 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Enfermera!.asset
+  artifactKey: Guid(87786dc469b12ebc5be8b871e363ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Enfermera!.asset using Guid(87786dc469b12ebc5be8b871e363ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1cf235c2468ac87d9cb27730de4d98') in 0.045330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 204.293474 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Artilleria espanola.asset
+  artifactKey: Guid(1812f73d597bc645c97bee747d717cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Artilleria espanola.asset using Guid(1812f73d597bc645c97bee747d717cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6146755cbd60ec5d9f2d4c440220b3a6') in 0.025286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 122.926691 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Carga Al Machete.asset
+  artifactKey: Guid(6e1763285f2b1112ab1b562f63b35b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Carga Al Machete.asset using Guid(6e1763285f2b1112ab1b562f63b35b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77deaf1bbfcceeb84938d68201405cb0') in 0.032515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 113.853662 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Carga Al Machete.asset
+  artifactKey: Guid(6e1763285f2b1112ab1b562f63b35b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Carga Al Machete.asset using Guid(6e1763285f2b1112ab1b562f63b35b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e82fa1ffeeb1e5d99628dc2aa671cc1') in 0.025056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.069612 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Artilleria espanola.asset
+  artifactKey: Guid(1812f73d597bc645c97bee747d717cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Artilleria espanola.asset using Guid(1812f73d597bc645c97bee747d717cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edaf55b3f5d340d581bc1c9bd026cfa') in 0.028962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.552769 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Telegrafo.asset
+  artifactKey: Guid(6b56f939634d1382683a45c2d2bcbe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Telegrafo.asset using Guid(6b56f939634d1382683a45c2d2bcbe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4e1168843cde0246e5d369229165de') in 0.032834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 144.269130 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Gordo.asset
+  artifactKey: Guid(3df3a2113eb9217ff930d33144170d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Gordo.asset using Guid(3df3a2113eb9217ff930d33144170d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15675c45a59e2764b137d9f3ceb1b50') in 0.027463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 112.743429 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Muchacho!.asset
+  artifactKey: Guid(00f13360e797f9819b3fc77c996dd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Muchacho!.asset using Guid(00f13360e797f9819b3fc77c996dd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb097708a6f79b121e415396e5a41a3') in 0.022925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 94.545001 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Enfermera!.asset
+  artifactKey: Guid(87786dc469b12ebc5be8b871e363ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Enfermera!.asset using Guid(87786dc469b12ebc5be8b871e363ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c9b934e280f91197ba493b904dcf03') in 0.009112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 217.687879 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Brindis O+.asset
+  artifactKey: Guid(9c92acc46aff4344fb7effc93beaaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Brindis O+.asset using Guid(9c92acc46aff4344fb7effc93beaaa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9903266f7ef66160ad1facddd54146e7') in 0.008495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.085829 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Baby.asset
+  artifactKey: Guid(a30f4874539c967429008ca8bce99a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Baby.asset using Guid(a30f4874539c967429008ca8bce99a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d56af73706c93c43e02523e5e14924d') in 0.009190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 251.052121 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Folkwagen.asset
+  artifactKey: Guid(9e896e5dc5cd92440b033395652467c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Folkwagen.asset using Guid(9e896e5dc5cd92440b033395652467c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9830a0bd056d3f18d8aa800f58fc3bec') in 0.009580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Jefe.asset
+  artifactKey: Guid(a7d3a5988c3907cf79a20a775680c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Jefe.asset using Guid(a7d3a5988c3907cf79a20a775680c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6ca1d3865c8a36e085a598205f1c61') in 0.009745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Lola.asset
+  artifactKey: Guid(af94e2fcf969dde4f8818207d27c74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Lola.asset using Guid(af94e2fcf969dde4f8818207d27c74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48af6f5b361db98216471134129cfb9') in 0.009591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Petrov.asset
+  artifactKey: Guid(55dc9e69a8f319f4b8c9dc53d886af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Petrov.asset using Guid(55dc9e69a8f319f4b8c9dc53d886af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba23bf02a39c38eeda117f663e4691e3') in 0.010116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/O+.asset
+  artifactKey: Guid(77cd2b4d1d64bdb46914cb3b000687c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/O+.asset using Guid(77cd2b4d1d64bdb46914cb3b000687c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad647ba612bbd369d04dbd491003ac') in 0.011570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Litle Smiley.asset
+  artifactKey: Guid(c4ee917e75b34a14e8899b1af0e78ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Litle Smiley.asset using Guid(c4ee917e75b34a14e8899b1af0e78ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd427cf3632645c38e84c8c5eb739d63') in 0.010714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Negro.asset
+  artifactKey: Guid(9822c4bdbf9be414ab8f3968f2c17e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Negro.asset using Guid(9822c4bdbf9be414ab8f3968f2c17e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c11e1600d432dfc1e961ea65a8506f') in 0.009799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Pepin.asset
+  artifactKey: Guid(c17a6cc4eced00b4a98b0761b9241e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Pepin.asset using Guid(c17a6cc4eced00b4a98b0761b9241e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad77ec6e900a633aa8e1fcd9a7118f1f') in 0.010347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 141.583697 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Vampiyaba.asset
+  artifactKey: Guid(129a965f0a6b86140820dd5f6e542704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Vampiyaba.asset using Guid(129a965f0a6b86140820dd5f6e542704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8208e4d2ebabde094a134cbc85214956') in 0.011942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.093734 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Rey del Mundo.asset
+  artifactKey: Guid(2d6348cced78fec45851208ea49150be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Rey del Mundo.asset using Guid(2d6348cced78fec45851208ea49150be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f74868d25708bf1bc8a0ca71546fe1a') in 0.009790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Vampisol.asset
+  artifactKey: Guid(3e3ab55be7e2ec444a82b1a923c29090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Vampisol.asset using Guid(3e3ab55be7e2ec444a82b1a923c29090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bdbbc3bae34321f55fb1124bad2463') in 0.030652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.192 seconds
+Refreshing native plugins compatible for Editor in 106.32 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 48.931 seconds
+Domain Reload Profiling: 56938ms
+	BeginReloadAssembly (1676ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (296ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (1149ms)
+	LoadAllAssembliesAndSetupDomain (4831ms)
+		LoadAssemblies (6008ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (48934ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (334ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1295ms)
+			ProcessInitializeOnLoadAttributes (1285ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (1001ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 104.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3670.
+Memory consumption went from 145.0 MB to 145.0 MB.
+Total: 15.235805 ms (FindLiveObjects: 1.278724 ms CreateObjectMapping: 0.906540 ms MarkObjects: 12.824605 ms  DeleteObjects: 0.213086 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: efbeaf2078ee4010e9a0b7bd6667f9dd -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BackButton.cs: 92b20ae206aa1198ae3c7439829a2a3b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 558.794173 seconds.
+  path: Assets/Cards/Vampiros en la habana deck/Conde Vladislao.asset
+  artifactKey: Guid(53569083c0cd7814a9a5575488a3cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Vampiros en la habana deck/Conde Vladislao.asset using Guid(53569083c0cd7814a9a5575488a3cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8c833e16c02376589e884172e921d6') in 0.100737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.474488 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Gordo.asset
+  artifactKey: Guid(3df3a2113eb9217ff930d33144170d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Gordo.asset using Guid(3df3a2113eb9217ff930d33144170d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2796993f4b8cb2b3a703095ff1a699d6') in 0.244140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Muchacho!.asset
+  artifactKey: Guid(00f13360e797f9819b3fc77c996dd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Muchacho!.asset using Guid(00f13360e797f9819b3fc77c996dd12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c43de1badcafc4eb5171dfccbde935') in 0.018195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038137 seconds.
+  path: Assets/Cards/Elpidio Valdez Deck/Telegrafo.asset
+  artifactKey: Guid(6b56f939634d1382683a45c2d2bcbe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Elpidio Valdez Deck/Telegrafo.asset using Guid(6b56f939634d1382683a45c2d2bcbe0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8970973ddc1008e9bf72f609bb7de69f') in 0.025718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.527145 seconds.
+  path: Assets/Cards/otras/Invierno.asset
+  artifactKey: Guid(d4c0f3ba8d5243443b8f153e6637ea47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/otras/Invierno.asset using Guid(d4c0f3ba8d5243443b8f153e6637ea47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dea08d6e9637891523317249fa95d5') in 0.080069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

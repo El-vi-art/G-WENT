@@ -51,6 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "gwent-pro-2d-template-main.sln",
+    "dotnet.defaultSolution": "gwent-pro-2d-template-main copia (copia).sln",
     "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }
