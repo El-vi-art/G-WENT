@@ -1,9 +1,13 @@
 sceneSetups:
 - path: Assets/Scenes/deskScene.unity
   isLoaded: 1
-  isActive: 1
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/menuScene.unity
   isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Transition Scene.unity
+  isLoaded: 0
   isActive: 0
   isSubScene: 0

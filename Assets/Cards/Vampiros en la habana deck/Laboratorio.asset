@@ -23,4 +23,4 @@ MonoBehaviour:
   ID: 0
   Description: Lugar donde el tio cocina sus brebajes magicos
   Positions: U
-  CardFront: {fileID: 0}
+  CardFront: {fileID: 21300000, guid: 2fd5510f8cf0939d2842b305453aecfc, type: 3}

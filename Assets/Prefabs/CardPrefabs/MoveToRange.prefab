@@ -10,10 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1194939188423698405}
   - component: {fileID: 5783347397552831315}
-  - component: {fileID: 1257290488889704465}
   - component: {fileID: 3286619160775708649}
   - component: {fileID: 6308036941701553575}
-  - component: {fileID: 9136006005215134549}
   m_Layer: 5
   m_Name: MoveToRange
   m_TagString: Untagged
@@ -49,36 +47,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631971215575214}
   m_CullTransparentMesh: 1
---- !u!114 &1257290488889704465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631971215575214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!114 &3286619160775708649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,7 +87,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1257290488889704465}
+  m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -152,9 +120,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9136006005215134549}
-          m_TargetAssemblyTypeName: ChangeButtonTrasparency, Assembly-CSharp
-          m_MethodName: OnHoverExit
+        - m_Target: {fileID: -2827706610223372238, guid: 09273dcb13e61f04b9a901bc4bbe00d2, type: 3}
+          m_TargetAssemblyTypeName: CardDisplay, Assembly-CSharp
+          m_MethodName: OnHoverEnter
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -168,8 +136,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 9136006005215134549}
-          m_TargetAssemblyTypeName: ChangeButtonTrasparency, Assembly-CSharp
+        - m_Target: {fileID: -2827706610223372238, guid: 09273dcb13e61f04b9a901bc4bbe00d2, type: 3}
+          m_TargetAssemblyTypeName: CardDisplay, Assembly-CSharp
           m_MethodName: OnHoverExit
           m_Mode: 1
           m_Arguments:
@@ -180,18 +148,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &9136006005215134549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631971215575214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb214909ca5233b49a6afbeec1dcc6b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &77061444403079198
 GameObject:
   m_ObjectHideFlags: 0

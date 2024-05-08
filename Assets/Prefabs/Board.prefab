@@ -805,7 +805,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandP1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 432317675166805993, guid: f1438ff30e091474ebd925e320953c5a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1585,7 +1586,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandP2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 432317675166805993, guid: f1438ff30e091474ebd925e320953c5a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

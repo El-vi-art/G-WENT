@@ -89,13 +89,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18bf9f1e6cdacbf48839a4ac48297174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BattleTrack: {fileID: 0}
-  EndRoundTrack: {fileID: 0}
-  StartRoundTrack: {fileID: 0}
   P1Turn: 0
   P2Turn: 0
   Round: {fileID: 0}
-  Turn: {fileID: 0}
+  Turn: {fileID: 8395298368096510551}
   Round1ResultsP1: {fileID: 0}
   Round1ResultsP2: {fileID: 0}
   Round2ResultsP1: {fileID: 0}

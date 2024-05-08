@@ -164,7 +164,6 @@ GameObject:
   - component: {fileID: -2827706610223372238}
   - component: {fileID: -1290849901961665873}
   - component: {fileID: 7258360537082061208}
-  - component: {fileID: 4237599247572559916}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -251,7 +250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c967ad2c57126459ba3be14865142b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CastingEffect: {fileID: 4237599247572559916}
   card: {fileID: 0}
   CardName: {fileID: 7104930045704505375}
   CardDescription: {fileID: 4232917091686677225}
@@ -270,12 +268,12 @@ MonoBehaviour:
   CardRank: 0
   Description: 
   EffectDescription: 
+  CastingEffect: {fileID: 0}
   InField: 0
   Upgraded: 0
   AffectedByWeather: 0
   Buffed: 0
   Debuffed: 0
-  BondInField: 0
   Selected: 0
 --- !u!114 &-1290849901961665873
 MonoBehaviour:
@@ -289,9 +287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb71aa974597e98419443dfb9bfa6ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WheaterSet: {fileID: 0}
-  UnitSet: {fileID: 0}
-  UpgadeSet: {fileID: 0}
 --- !u!114 &7258360537082061208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,102 +348,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!82 &4237599247572559916
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4834773435392180118}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d784011171b04e14fb9459fcff053887, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &6620660747708938340
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,7 +1366,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb214909ca5233b49a6afbeec1dcc6b5, type: 3}
+  m_Script: {fileID: 11500000, guid: fb71aa974597e98419443dfb9bfa6ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &4765142289997133351 stripped
@@ -1478,7 +1377,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb214909ca5233b49a6afbeec1dcc6b5, type: 3}
+  m_Script: {fileID: 11500000, guid: fb71aa974597e98419443dfb9bfa6ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &5986586053279744596 stripped
@@ -1494,7 +1393,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb214909ca5233b49a6afbeec1dcc6b5, type: 3}
+  m_Script: {fileID: 11500000, guid: fb71aa974597e98419443dfb9bfa6ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &6122075899479461384

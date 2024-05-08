@@ -32,7 +32,7 @@ public class CardDisplay : MonoBehaviour
     public string EffectDescription;
 
 
-    public AudioSource CastingEffect;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -104,7 +104,7 @@ public class CardDisplay : MonoBehaviour
         GameObject RangeWheather = GameObject.Find("ClimaOfRange");
         GameObject SiegeWheather = GameObject.Find("ClimaOfSiege");
 
-        CastingEffect.Play();
+        
         if ((transform.parent == MeleeWheather.transform || transform.parent == RangeWheather.transform || transform.parent == SiegeWheather.transform) && ID == Card.Effect.Weather && Cardtipe == Card.CardTipe.Weather)
         {
             if (transform.parent == MeleeWheather.transform)

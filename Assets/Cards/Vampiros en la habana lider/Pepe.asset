@@ -18,7 +18,7 @@ MonoBehaviour:
   Position1: 0
   Position2: 1
   Position3: 0
-  ID: 2
+  ID: 1
   Description: Desendiente directo del mismisimo Conde dracula
   Positions: M R
   CardFront: {fileID: 21300000, guid: ccd287386a98cf3cc82c95c857e55a1d, type: 3}
