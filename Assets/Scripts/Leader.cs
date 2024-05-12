@@ -21,7 +21,8 @@ namespace GwentEngine
         public enum Effect
         {
             Upgrade,
-            Weather
+            Weather,
+            none
         }
             
         public enum CardTipe

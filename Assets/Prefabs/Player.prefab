@@ -48,7 +48,9 @@ MonoBehaviour:
   Passed: 0
   Drawed: 0
   IsPlaying: 0
-  StartPlay: 0
+  SustituteSelected: 0
+  Leader: {fileID: 0}
+  Cards: []
   MeleeZone: {fileID: 0}
   RangeZone: {fileID: 0}
   SiegeZone: {fileID: 0}

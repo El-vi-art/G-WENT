@@ -287,12 +287,12 @@ public class GameManager : MonoBehaviour
                 if (VictoriesP1 > VictoriesP2)
                 {
                     Round.text = "Player 1 wins the game";
-                    //Invoke(nameof(EngGame), 2.0f);
+                    Invoke(nameof(EngGame), 2.0f);
                 }
                 else if (VictoriesP1 < VictoriesP2)
                 {
                     Round.text = "Player 2 wins the game";
-                    //Invoke(nameof(EngGame), 2.0f);
+                    Invoke(nameof(EngGame), 2.0f);
                 }
             }
         }
@@ -315,16 +315,16 @@ public class GameManager : MonoBehaviour
                     Round.text = "Nobody wins the game";
                     
                 }
-                //Invoke(nameof(EngGame), 2.0f);
+                Invoke(nameof(EngGame), 2.0f);
             }
 
         }
     }
     //This method jump to the previous Scene
-    /*public void EngGame()
+    public void EngGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-    }*/
+    }
 
     //This method start the round
     public void Play()

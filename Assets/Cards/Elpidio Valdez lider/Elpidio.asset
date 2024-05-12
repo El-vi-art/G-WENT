@@ -15,10 +15,10 @@ MonoBehaviour:
   CardName: Elpidio
   CardFaction: 1
   Cardtipe: 0
-  Position1: 1
+  Position1: 0
   Position2: 1
   Position3: 2
-  ID: 0
+  ID: 1
   Description: El patriotico lider de los mambises
-  Positions: R S
+  Positions: M R S
   CardFront: {fileID: 21300000, guid: b6658a9a24cd779ba98c51b44fca443c, type: 3}

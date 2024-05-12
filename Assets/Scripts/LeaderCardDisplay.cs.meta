@@ -3,7 +3,12 @@ guid: 367cce1b4d129584195aa34daefbd252
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - CardName: {instanceID: 0}
+  - CardDescription: {instanceID: 0}
+  - Positions: {instanceID: 0}
+  - ArtWork: {instanceID: 0}
+  - Player: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

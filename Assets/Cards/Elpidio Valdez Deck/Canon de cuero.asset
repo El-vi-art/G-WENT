@@ -20,7 +20,7 @@ MonoBehaviour:
   Position2: 3
   Position3: 3
   CardRank: 0
-  ID: 0
+  ID: 5
   Description: La potente arma desarrollada por el ingenio de nuestro coronel Valdez
   Positions: U
   CardFront: {fileID: 21300000, guid: 28f5c11fcf850e51db09ec6afb36f052, type: 3}
