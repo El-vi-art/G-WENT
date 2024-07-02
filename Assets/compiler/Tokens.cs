@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
+﻿
     public enum TokenType { Number, String, Boolean, System }
-    public enum SystemType { Identifier, Keyword, Separator, Operator, LogicOperator, EndOfLine }
+    public enum SystemType { Identifier, Keyword, Separator, Operator}
+    public enum OperatorType { Aritmetic, Logic, Comparison}
     public enum ErrorType { Lexical, Semantic, Syntax}
 
     public interface TokenInterface
@@ -142,6 +137,13 @@ using System.Threading.Tasks;
         public ArithmeticOperatorToken(string value) : base(value) { }
     }
 
+    internal class ComparisonOperatorToken : OperatorToken
+    {
+        public override string? TokenValue => base.TokenValue;
+
+        public ComparisonOperatorToken(string value) : base(value) { }
+    }
+
     internal class LogicOperatorToken : OperatorToken
     {
         public override string? TokenValue => base.TokenValue;
@@ -161,10 +163,10 @@ using System.Threading.Tasks;
         public LogicBooleanOperatorToken(string value) : base(value) { }
     }
 
-    internal class EndOfLineToken : SystemToken
+    /*internal class EndOfLineToken : SystemToken
     {
         public override string? TokenValue => base.TokenValue;
 
         public EndOfLineToken() : base(SystemType.EndOfLine, ";") { }
-    }
+    }*/
 

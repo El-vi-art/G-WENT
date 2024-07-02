@@ -6,10 +6,10 @@ public class Lexer
 {
     List<string> AritmeticOperators = new List<string>(new string[]{"+","-","*","/","^","++"});
     List<string> LogicOperators = new List<string>(new string[]{"&&","||"});
-    List<string> ComparisonOperators = new List<string>(new string[]{"<",">","==","<=",">="});
-    List<string> ConcatOperators = new List<string>(new string[]{"@","@@"});
-    List<string> AsignationOperators = new List<string>(new string[]{"=",":"});
-    List<string> SeparatorCharacters = new List<string>(new string[]{",",";","\"","(",")","{","}"});
+    List<string> ComparisonOperators = new List<string>(new string[]{"<",">"});
+    List<string> SpecialCharacters = new List<string>(new string[]{"@",";","="});
+    //List<string> AsignationOperators = new List<string>(new string[]{"=",":"});
+    List<string> SeparatorCharacters = new List<string>(new string[]{",","\"","(",")","{","}"});
     // Access operator {"."}
 
     List<string> KeywordCharacters = new List<string>(new string[]{"effect","Name","Params","Action",
@@ -25,185 +25,121 @@ public class Lexer
             CreateTokens(input);
 
     }
+     public List<TokenInterface> GetTokens() => TokenList;
     private void CreateTokens(string input)
         {
-            StringBuilder preToken = new StringBuilder();
+            //StringBuilder preToken = new StringBuilder();
+            string code = input;
 
-            for (int i = 0; i < input.Length; i++)
+            foreach (char x in code )
             {
-                if (SeparatorCharacters.Contains(input[i]))
-                {
-                    TokenList.Add(new SeparatorToken(input[i].ToString()));
-                }
-                else if (AritmeticOperators.Contains(input[i]))
-                {
-                    if (i + 1 != input.Length && input[i] == '=' && input[i + 1] == '>')
-                    {
-                        TokenList.Add(new OperatorToken("=>"));
-                        i++;
-                    }
-                    else
-                        TokenList.Add(new ArithmeticOperatorToken(input[i].ToString()));
-                }
-                else if (LogicOperators.Contains(input[i]))
-                {
-                    if (input[i] == '&' || input[i] == '|')
-                        TokenList.Add(new LogicBooleanOperatorToken(input[i].ToString()));
-                    else if (input[i] == '!' && (i == input.Length || input[i + 1] != '='))
-                        TokenList.Add(new LogicBooleanOperatorToken(input[i].ToString()));
-                    else if (i + 1 != input.Length && input[i + 1] == '=')
-                    {
-                        TokenList.Add(new LogicArimeticOperatorToken(input[i].ToString() + "="));
-                        i++;
-                    }
-                    else
-                        TokenList.Add(new LogicArimeticOperatorToken(input[i].ToString()));
-                }
-                else if (SpecialCharacters.Contains(input[i]))
-                {
-                    if (input[i] == ';')
-                        TokenList.Add(new EndOfLineToken());
-                    else if (input[i] == '@')
-                        TokenList.Add(new SpecialOperatorToken("@"));
-                    else if (input[i] == '=')
-                    {
-                        if (i + 1 != input.Length && input[i + 1] == '=')
-                        {
-                            TokenList.Add(new LogicArimeticOperatorToken("=="));
-                            i++;
-                        }
-                        else if (i + 1 != input.Length && input[i + 1] == '>')
-                        {
-                            TokenList.Add(new SpecialOperatorToken("=>"));
-                            i++;
-                        }
-                        else
-                            TokenList.Add(new SpecialOperatorToken("="));
-                    }
-                }
-                else if (char.IsDigit(input[i]))
-                {
-                    if (TokenList.Count >= 1)
-                    {
-                        if (TokenList[TokenList.Count - 1] is ArithmeticOperatorToken && ((ArithmeticOperatorToken)TokenList[TokenList.Count - 1]).TokenValue == "-")
-                        {
-                            preToken.Append("-");
-
-                            if (TokenList.Count >= 2 && (TokenList[TokenList.Count - 2] is NumberToken or IdentifierToken || TokenList[TokenList.Count - 2].GetTokenValueAsString() == ")"))
-                                ((ArithmeticOperatorToken)TokenList[TokenList.Count - 1]).ChangeValue("+");
-                            else
-                                TokenList.RemoveAt(TokenList.Count - 1);
-                        }
-                    }
-
-                    while (i != input.Length && input[i] != ' ')
-                    {
-                        if (SeparatorCharacters.Contains(input[i]) || AritmeticOperators.Contains(input[i]) || LogicOperators.Contains(input[i]) || SpecialCharacters.Contains(input[i]))
-                            break;
-
-                        preToken.Append(input[i]);
-                        i++;
-                    }
-
-                    double number;
-                    if (double.TryParse(preToken.ToString(), out number))
-                        TokenList.Add(new NumberToken(number));
-                    //else
-                        //AddLexicalErrorToList($"Invalid token {number}");
-
-                    preToken.Clear();
-                    i--;
-                }
-                else if (input[i] == '"')
-                {
-                    preToken.Append(input[i]);
-                    i++;
-
-                    while (true)
-                    {
-                        if (i == input.Length)
-                            break;
-
-                        if (input[i] == '"')
-                        {
-                            preToken.Append(input[i]);
-                            break;
-                        }
-
-                        if (input[i] == '\\' && i < input.Length - 1)
-                        {
-                            switch (input[i + 1])
-                            {
-                                case '\"':
-                                    preToken.Append("\"");
-                                    i += 1;
-                                    break;
-                                case 'n':
-                                    preToken.Append("\n");
-                                    i += 1;
-                                    break;
-                                case 't':
-                                    preToken.Append("\t");
-                                    i += 1;
-                                    break;
-                                default:
-                                    preToken.Append(input[i]);
-                                    break;
-                            }
-                        }
-                        else
-                        {
-                            preToken.Append(input[i]);
-                        }
-
-                        i++;
-                    }
-
-                    /*if (preToken[preToken.Length - 1] != '\"')
-                        AddLexicalErrorToList($"Invalid token {preToken}. Expected double-quotes `\"`");
-                    else
-                        TokenList.Add(new StringToken(preToken.ToString()));*/
-
-                    preToken.Clear();
-
-                }
-                else if (input[i] == ' ')
+                if (x == ' ')
                 {
                     continue;
                 }
-                else
+                if (SeparatorCharacters.Contains(x.ToString()))
                 {
-                    bool invalidToken = false;
-                    while (i != input.Length && input[i] != ' ')
+                    TokenList.Add(new SeparatorToken(x.ToString()));
+                    code.Remove(x);
+                    continue;
+                }
+                else if (AritmeticOperators.Contains(x.ToString()))
+                {
+                    if (code[code.IndexOf(x)+1]=='=')
+                    {                        
+                        TokenList.Add( new ComparisonOperatorToken(string.Concat(x,"=")));
+                        code.Remove(code.IndexOf(x),2);
+                        continue;
+                    }
+                    TokenList.Add(new ArithmeticOperatorToken(x.ToString()));
+                    //code.Remove(x);
+                    continue;
+                }
+                else if (LogicOperators.Contains(x.ToString()))
+                {
+                    if(code[code.IndexOf(x)+1]==x)
                     {
-                        if (SeparatorCharacters.Contains(input[i]) || AritmeticOperators.Contains(input[i]) || LogicOperators.Contains(input[i]) || SpecialCharacters.Contains(input[i]))
-                            break;
+                        if (x == '&')
+                        {
+                            TokenList.Add(new LogicBooleanOperatorToken("&&"));
+                            code.Remove(x);
+                            continue;
+                        }
+                        else if (x == '|')
+                        {
+                            TokenList.Add(new LogicBooleanOperatorToken("||"));
+                            code.Remove(x);
+                            continue;
+                        }
+                        else code.Remove(x);continue;
+                    
+                    }
+                }
+                else if (SpecialCharacters.Contains(x.ToString()))
+                {
+                    if (x == ';')
+                        {TokenList.Add(new EndOfLineToken());
+                        code.Remove(x);
+                            continue;}
+                    else if (x == '@')
+                        {   
+                            if (code[code.IndexOf(x)+1]=='@')
+                            {TokenList.Add(new SpecialOperatorToken("@@"));
+                            code.Remove(x);
+                            continue;}
+                            else TokenList.Add(new SpecialOperatorToken("@"));
+                        }
+                    else if (x == '=')
+                    {
+                        if ( code[code.IndexOf(x)+1] == '=')
+                        {
+                            TokenList.Add(new ComparisonOperatorToken("=="));
+                            code.Remove(x);
+                            continue;
+                        }
+                        else
+                        {
+                            TokenList.Add(new SpecialOperatorToken("="));
+                            code.Remove(x);
+                            continue;
+                        }
+                    }
+                }
+                else if (ComparisonOperators.Contains(x.ToString()))
+                {
+                    if (code[code.IndexOf(x)+1]!='=') 
+                    {
+                        TokenList.Add( new ComparisonOperatorToken(x.ToString()));
+                        code.Remove(x);
+                        continue;
+                    }
+                    else 
+                    {
+                        string temp = string.Concat(x,code[code.IndexOf(x)+1]);
+                        TokenList.Add( new ComparisonOperatorToken(temp));
+                        code.Remove(code.IndexOf(x),2);
+                        continue;
 
-                        if (!char.IsLetter(input[i]))
-                            invalidToken = true;
-
-                        preToken.Append(input[i]);
-                        i++;
                     }
 
-                    string preTokenSTR = preToken.ToString();
-
-                    /*if (invalidToken)
-                        AddLexicalErrorToList($"Invalid token {preTokenSTR}");
-                    else*/ if (KeywordCharacters.Contains(preToken.ToString()))
-                        TokenList.Add(new KeywordToken(preTokenSTR));
-                    else if (preTokenSTR == "true" || preTokenSTR == "false")
-                        TokenList.Add(new BooleanToken(bool.Parse(preTokenSTR)));
-                    else if (preTokenSTR == "PI")
-                        TokenList.Add(new NumberToken(Math.PI));
-                    else if (preTokenSTR == "E")
-                        TokenList.Add(new NumberToken(Math.E));
-                    else
-                        TokenList.Add(new IdentifierToken(preTokenSTR));
-
-                    preToken.Clear();
-                    i--;
                 }
+                //en caso de que sea un numero
+                else if (char.IsDigit(x))
+                {
+                    string number = x.ToString();
+                    int temp =code.IndexOf(x);
+                    while (temp<code.Length-1 && char.IsDigit(code[temp+1]))
+                    {
+                        number = string.Concat(number,code[code.IndexOf(x)+1]);
+                        temp+=1;
+                    }
+                    TokenList.Add(new NumberToken(Double.Parse(number)));
+                    code.Remove(code.IndexOf(x),number.Count());
+                    continue;
+                }
+                
+                
+                
 
             }
         }
