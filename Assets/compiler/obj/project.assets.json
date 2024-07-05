@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/victor/2492907A929052621/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets/compiler/compiler.csproj",
-      "projectName": "compiler",
-      "projectPath": "/media/victor/2492907A929052621/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets/compiler/compiler.csproj",
+      "projectUniqueName": "/media/victor/2492907A929052621/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets/compiler/Compiler.csproj",
+      "projectName": "Compiler",
+      "projectPath": "/media/victor/2492907A929052621/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets/compiler/Compiler.csproj",
       "packagesPath": "/home/victor/.nuget/packages/",
       "outputPath": "/media/victor/2492907A929052621/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets/compiler/obj/",
       "projectStyle": "PackageReference",

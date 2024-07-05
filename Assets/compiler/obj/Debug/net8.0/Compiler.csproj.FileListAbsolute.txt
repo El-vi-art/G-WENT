@@ -1,0 +1,14 @@
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/Compiler.GeneratedMSBuildEditorConfig.editorconfig
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/Compiler.AssemblyInfoInputs.cache
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/Compiler.AssemblyInfo.cs
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/Compiler.csproj.CoreCompileInputs.cache
+/home/victor/Documentos/Compiler/bin/Debug/net8.0/Compiler
+/home/victor/Documentos/Compiler/bin/Debug/net8.0/Compiler.deps.json
+/home/victor/Documentos/Compiler/bin/Debug/net8.0/Compiler.runtimeconfig.json
+/home/victor/Documentos/Compiler/bin/Debug/net8.0/Compiler.dll
+/home/victor/Documentos/Compiler/bin/Debug/net8.0/Compiler.pdb
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/Compiler.dll
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/refint/Compiler.dll
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/Compiler.pdb
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/Compiler.genruntimeconfig.cache
+/home/victor/Documentos/Compiler/obj/Debug/net8.0/ref/Compiler.dll

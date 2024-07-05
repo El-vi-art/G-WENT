@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DfP41eyA1ndgRKxMMqAman9UsY5scE7/fkD3oo6TuBWXQkgDhHIsC1aPw2SkWExmWjC2ByZuW8ckqjDC4yRS5A==",
+  "dgSpecHash": "gRVanvoj/PdQsfvkrfso5d5ktgnER0OfaN6dpCo7eBQ7dteY95ac/1oyUGoQaZGwMJxK0YL+6xRu8JNvrqvVrQ==",
   "success": true,
-  "projectFilePath": "/media/victor/2492907A929052621/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets/compiler/compiler.csproj",
+  "projectFilePath": "/media/victor/2492907A929052621/gwent 2d/gwent-pro-2d-template-main copia (copia)/Assets/compiler/Compiler.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
