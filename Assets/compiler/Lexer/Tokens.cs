@@ -10,7 +10,7 @@ HandOfPlayer,FieldOfPlayer,GraveyardOfPlayer, DeckOfPlayer,Find,SendBottom,Pop,R
 //cartas y miembros,name ya está en los efectos
 Card,Type,Faction,Power,Range, OnActivation,
                                PostAction, Selector,
-Source, Single,Predicate
+Source, Single,Predicate,
 
     // Símbolos
     Plus, Minus, Star, Slash, Equal,NotEqual, BangEqual, Greater, GreaterEqual, Less, LessEqual, Assign,
