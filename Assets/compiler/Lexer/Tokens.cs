@@ -1,7 +1,17 @@
 public enum TokenType
 {
     // Palabras clave
-    Effect, Card, For, While, If, Else, True, False,
+    For, While, If, Else, True, False,
+//effects y miembros
+    Effect,Name,Params,Action,
+                       targets,context,
+                               TriggerPlayer,Board,
+HandOfPlayer,FieldOfPlayer,GraveyardOfPlayer, DeckOfPlayer,Find,SendBottom,Pop,Remove, Shuffle,
+//cartas y miembros,name ya está en los efectos
+Card,Type,Faction,Power,Range, OnActivation,
+                               PostAction, Selector,
+Source, Single,Predicate
+
     // Símbolos
     Plus, Minus, Star, Slash, Equal,NotEqual, BangEqual, Greater, GreaterEqual, Less, LessEqual, Assign,
     And, Or, Bang, 
